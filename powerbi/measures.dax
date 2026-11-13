@@ -1,0 +1,12 @@
+Total Rentals = SUM(BikeRentals[cnt])
+
+Average Hourly Rentals = AVERAGE(BikeRentals[cnt])
+
+Registered Rentals = SUM(BikeRentals[registered])
+
+Registered Share = DIVIDE([Registered Rentals], [Total Rentals])
+
+Casual Rentals = SUM(BikeRentals[casual])
+
+Working Day Rentals =
+CALCULATE([Total Rentals], BikeRentals[workingday] = 1)

@@ -1,0 +1,6 @@
+Rows analyzed: 17,379
+Total rentals: 3,292,679
+Peak average demand hour: 17:00
+Highest average demand season: Summer
+Average hourly rentals in clear weather: 204.9
+Average hourly rentals in the lowest-demand weather group: 74.3
